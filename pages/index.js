@@ -7,9 +7,9 @@ export default function Home() {
       <article className="w-full px-10 py-10 mb-20 overflow-y-auto max-w-[620px] mx-auto">
         <div className="flex items-start justify-center w-full mb-10 overflow-hidden rounded-lg max-h-[500px] shadow-xl">
           <img
-            src="/images/pages/rishi-mohan.jpg"
-            alt="Rishi in his natural habitat"
-            title="A black and white photo of Rishi"
+            src="https://abhiraj-is.super-cool.xyz/web-pfp.png"
+            alt="Abhiraj"
+            title="A profile picture of Abhiraj"
           />
         </div>
         <h2 className="mt-12 mb-6 text-3xl font-black md:text-5xl">
