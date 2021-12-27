@@ -34,7 +34,7 @@ export default function Sidebar() {
       active: pathname.includes("/blog"),
     },
     {
-      title: "Side Projects",
+      title: "Side Hustle",
       url: "/projects",
       icon: SideProjectsIcon,
       active: pathname.includes("/projects"),
@@ -62,7 +62,7 @@ export default function Sidebar() {
     },
     {
       title: "Email",
-      url: `mailto:iamrishi.ms@gmail.com`,
+      url: `mailto:abhirajbhowmick27@gmail.com`,
       icon: EmailIcon,
       external: false,
     },
