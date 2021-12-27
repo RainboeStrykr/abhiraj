@@ -13,29 +13,29 @@ export default function Home() {
           />
         </div>
         <h2 className="mt-12 mb-6 text-3xl font-black md:text-5xl">
-          <span className="text-gray-400">Hi, I'm </span>Rishi Mohan!
+          <span className="text-gray-400">Hi, I'm </span>Abhiraj!
         </h2>
         <div className="post-content">
           <p className="text-lg text-gray-500">
-            I'm a <span className="font-medium">designer</span> and{" "}
-            <span className="font-medium">front-end engineer</span> by
+            I'm a <span className="font-medium">web developer</span> and{" "}
+            <span className="font-medium">tech blogger</span> by
             profession, currently working at{" "}
-            <a href="https://www.bigbinary.com">BigBinary</a>.
+            <a href="https://twitter.com/visualwayorg">Visualway</a>.
           </p>
           <p className="text-lg text-gray-500">
-            I like building clean and interactive apps using React.js, React
-            Native and other front-end tech.
+            I like building clean and interactive stuff on the web
+            and write blogs on making web dev easy for all.
           </p>
           <p className="text-lg text-gray-500">
             On weekends I like to travel and take photos. I like to binge try
             Cafes and Restaurants. Some weekends go into building some side
             projects like{" "}
-            <Link href="https://kizie.co">
-              <a target="_blank">this Twitter app</a>
+            <Link href="https://pro-modoro.xyz">
+              <a target="_blank">this productivity app</a>
             </Link>{" "}
             and{" "}
-            <Link href="/projects/maazi">
-              <a>diary app</a>
+            <Link href="https://cleanshot.vercel.app">
+              <a>mockup tool</a>
             </Link>
             .
           </p>
