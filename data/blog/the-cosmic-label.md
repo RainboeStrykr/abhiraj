@@ -1,12 +1,12 @@
 ---
 
 layout: post
-title: "The Cosmic Label"
-date: 2019-11-09 00:50:00 +0530
-categories: Personal
+title: "What is Automation Testing?"
+date: 2021-11-26 11:50:00 +0530
+categories: automation
 type: link
-link: https://thecosmiclabel.rishimohan.me/
-image: /images/posts/the-cosmic-label-rishi-mohan.jpg
-excerpt: "The Cosmic Label is a place where I’m exploring my interest in menswear and aesthetic dressing, I’m a web designer by profession and I feel that has shaped my sense of colors, combinations and helped me in upgrading my dressing sense. I feel my fashion sense is unique and I want to explore more in that direction and see where it’ll take me."
+link: https://uilicious.com/blog/what-is-automation-testing/
+image: https://uilicious.com/blog/content/images/size/w2000/2021/11/automation-testing.jpg
+excerpt: "We've long believed that automation testing is a wonderful formula for improving the quality of apps right from the start. However, it is only when we begin automating that we grasp the true reality. We frequently confront issues such as deciding when to start automating tests, what tests to automate, how to choose the correct technology, and how to write automation test scripts that follow the best practices."
 
 ---
