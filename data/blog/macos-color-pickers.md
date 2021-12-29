@@ -475,7 +475,7 @@ hide(document.querySelectorAll('img')); // Hides all <img> elements on the page
 
 This post was inspired by one of my Twitter threads. Do follow me on Twitter to never miss out on tech content.
 
-[Here](https://twitter.com/RainboeStrykr/status/1471374845258518530
+[Here](https://twitter.com/RainboeStrykr/status/1471374845258518530)
 
 ### Thank you for reading
 
