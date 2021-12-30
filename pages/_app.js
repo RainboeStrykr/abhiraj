@@ -17,25 +17,25 @@ function MyApp({ Component, pageProps }) {
       <MainLayout>
         <DefaultSeo
           title="Hi, I'm Abhiraj"
-          description="I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants."
+          description="I make stuff on the web and write blogs about it"
           canonical={canonicalUrl}
           openGraph={{
-            site_name: "Hi, I'm Rishi Mohan!",
-            title: "Hi, I'm Rishi Mohan!",
+            site_name: "Hi, I'm Abhiraj",
+            title: "Hi, Abhiraj",
             description:
-              "I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants.",
+              "I make stuff on the web and write blogs about it",
             images: [
               {
-                url: "https://rishimohan.vercel.app/images/site/meta.jpg",
+                url: "https://us-east-1.tixte.net/uploads/abhiraj-is.super-cool.xyz/meta.png",
                 width: 800,
                 height: 600,
-                alt: "Kizie for Twitter",
+                alt: "Abhiraj Bhowmick",
               },
             ],
           }}
           twitter={{
-            handle: "@thelifeofrishi",
-            site: "@thelifeofrishi",
+            handle: "@rainboestrykr",
+            site: "@rainboestrykr",
             cardType: "summary_large_image",
           }}
           additionalLinkTags={[
