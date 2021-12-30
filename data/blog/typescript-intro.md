@@ -5,7 +5,7 @@ title: "An introduction to Typescript"
 date: 2021-12-06 12:00:00 +0530
 categories: typescript
 excerpt: TypeScript is a programming language developed and maintained by Microsoft licensed. TypeScript is a superset of JavaScript, meaning that all the concepts of JavaScript are present in TypeScript which is combined with TypeScript's own concepts that make the language increasingly powerful.
-image: https://abhirajb.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1640576314852%2FLs-OXQ1nl.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75
+image: https://cdn.devdojo.com/posts/images/December2021/typescript-an-introduction1.jpg?auto=format&q=70&w=1280
 
 ---
 
