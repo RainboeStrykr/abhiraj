@@ -7,7 +7,7 @@ import {
   TravelIcon,
   SideProjectsIcon,
   TwitterIcon,
-  InstagramIcon,
+  GithubIcon,
   ExternalLinkIcon,
   EmailIcon,
 } from "lib/icons";
@@ -55,9 +55,9 @@ export default function Sidebar() {
       external: true,
     },
     {
-      title: "Instagram",
-      url: `https://instagram.com/${process.env.instagram}`,
-      icon: InstagramIcon,
+      title: "Github",
+      url: `https://github.com/rainboestrykr`,
+      icon: GithubIcon,
       external: true,
     },
     {
