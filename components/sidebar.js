@@ -39,12 +39,6 @@ export default function Sidebar() {
       icon: SideProjectsIcon,
       active: pathname.includes("/projects"),
     },
-    {
-      title: "Travel Map",
-      url: "/map",
-      icon: TravelIcon,
-      active: pathname === "/map",
-    },
   ];
 
   const SOCIAL = [
