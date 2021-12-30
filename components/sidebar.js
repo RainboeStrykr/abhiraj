@@ -55,12 +55,6 @@ export default function Sidebar() {
       external: true,
     },
     {
-      title: "Github",
-      url: `https://github.com/rainboestrykr`,
-      icon: GithubIcon,
-      external: true,
-    },
-    {
       title: "Email",
       url: `mailto:abhirajbhowmick27@gmail.com`,
       icon: EmailIcon,
