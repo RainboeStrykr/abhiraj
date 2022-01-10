@@ -2,7 +2,7 @@
 
 layout: post
 title: "10 tools you can use right now to build mobile apps"
-date: 2021-01-10 08:00:00 +0530
+date: 2022-01-10 06:00:00 +0530
 categories: nocode
 excerpt: A list of no-code tools to build mobile apps.
 
