@@ -19,7 +19,7 @@ export default function Home() {
           <p className="text-lg text-gray-500">
             I'm a <span className="font-medium">web developer</span> and{" "}
             <span className="font-medium">tech blogger</span> by
-            profession, currently working at{" "}
+            profession, currently working on{" "}
             <a href="https://twitter.com/visualwayorg">Visualway</a>.
           </p>
           <p className="text-lg text-gray-500">
@@ -41,13 +41,13 @@ export default function Home() {
           </p>
         </div>
         <div className="px-4 py-3 my-5 text-base text-gray-400 bg-gray-100 rounded-xl dark:bg-gray-900 dark:text-gray-500">
-          The code for this blog is{" "}
+          You can find my socials{" "}
           <a
             className="underline"
             target="_blank"
-            href="https://github.com/rishimohan/rishimohan.me"
+            href="https://ayo.so/abhiraj"
           >
-            available on Github
+            here
           </a>
           .
         </div>
