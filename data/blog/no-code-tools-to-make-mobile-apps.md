@@ -1,14 +1,12 @@
-
 ---
 
 layout: post
-title: "10 tools you can use to build mobile apps right now"
-date: 2022-01-10 10:00:00 +0530
+title: "10 tools you can use right now to build mobile apps"
+date: 2021-01-10 08:00:00 +0530
 categories: nocode
-excerpt: A list of no-code tools you can use in 2022 to build mobile apps.
+excerpt: A list of no-code tools to build mobile apps.
 
 ---
-
 
 Building a Mobile application in 2022 with fewer lines of code to almost zero lines of code is easier than ever before. These tools do not have a bigger learning curve therefore you can build apps without any assistance.
 
