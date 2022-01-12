@@ -9,7 +9,7 @@ import {useRouter} from "next/router";
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const canonicalUrl = (
-    `https://rishimohan.me` + (router.asPath === "/" ? "" : router.asPath)
+    `https://abhiraj.co` + (router.asPath === "/" ? "" : router.asPath)
   ).split("?")[0];
 
   return (
@@ -76,16 +76,7 @@ function MyApp({ Component, pageProps }) {
         ) : (
           ""
         )}
-        <script async src="https://cdn.splitbee.io/sb.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QDDZEJ2440"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-QDDZEJ2440');
-</script>
+        
         <Component {...pageProps} />
       </MainLayout>
     </ThemeProvider>
