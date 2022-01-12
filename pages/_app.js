@@ -76,6 +76,7 @@ function MyApp({ Component, pageProps }) {
         ) : (
           ""
         )}
+        <script async src="https://cdn.splitbee.io/sb.js"></script>
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=UA-38898205-6"
