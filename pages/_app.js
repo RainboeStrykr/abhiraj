@@ -27,8 +27,8 @@ function MyApp({ Component, pageProps }) {
             images: [
               {
                 url: "https://us-east-1.tixte.net/uploads/abhiraj-is.super-cool.xyz/meta.png",
-                width: 800,
-                height: 600,
+                width: 1544,
+                height: 668,
                 alt: "Abhiraj Bhowmick",
               },
             ],
