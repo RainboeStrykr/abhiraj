@@ -33,6 +33,12 @@ export default function Sidebar() {
       icon: BlogIcon,
       active: pathname.includes("/blog"),
     },
+    {
+      title: "Side Hustle",
+      url: "/side-hustle",
+      icon: SideProjectsIcon,
+      active: pathname.includes("/side-hustle"),
+    },
   ];
 
   const SOCIAL = [
