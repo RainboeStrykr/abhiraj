@@ -4,7 +4,6 @@ title: "Visualway"
 slug: visualway
 web: "http://visualway.xyz"
 tech: ["Startop", "Non-profit community"]
-icon: https://avatars.githubusercontent.com/u/91068688?s=200&v=4
 
 ---
 
