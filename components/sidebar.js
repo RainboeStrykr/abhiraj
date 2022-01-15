@@ -35,9 +35,9 @@ export default function Sidebar() {
     },
     {
       title: "Side Hustle",
-      url: "/side-projects",
+      url: "/projects",
       icon: SideProjectsIcon,
-      active: pathname.includes("/side-projects"),
+      active: pathname.includes("/projects"),
     },
   ];
 
