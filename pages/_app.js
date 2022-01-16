@@ -67,12 +67,9 @@ function MyApp({ Component, pageProps }) {
         />
         {process.env.NODE_ENV == "production" ? (
           // Analytics Script
-          <Script
-            src="https://api.pirsch.io/pirsch.js"
-            id="pirschjs"
-            data-code={process.env.NEXT_PUBLIC_PIRSCH_KEY}
-            strategy="afterInteractive"
-          />
+          <script defer type="text/javascript" src="https://api.pirsch.io/pirsch.js"
+    id="pirschjs"
+    data-code="srGYMdDe2AFaWpr1PLzY3XtQ9lzHnzEh"></script>
         ) : (
           ""
         )}
