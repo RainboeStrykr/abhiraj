@@ -3,7 +3,6 @@ date: 2018-04-23 21:11:00 +0530
 title: "Guest-writing"
 web: "http://ayo.so/abhiraj"
 tech: ["Technical Writing", "Blogging"]
-icon: https://cdn-icons.flaticon.com/png/128/3131/premium/3131605.png?token=exp=1642232478~hmac=18d58593650918f72c89af8b82bf4017
 slug: guest-posts
 
 ---
