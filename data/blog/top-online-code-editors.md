@@ -82,4 +82,4 @@ Run full Node.js projects with support for automating hosting, version control, 
 
 ### Thank you for reading
 
-If you liked this post, subscribe to my [newsletter] (https://abhirajbhowmick.substack.com) to never miss out on my blogs, product launches, and tech news, and follow me on [Twitter](https://twitter.com/rainboestrykr) for daily threads on web dev resources.
+If you liked this post, subscribe to my [newsletter](https://abhirajbhowmick.substack.com) to never miss out on my blogs, product launches, and tech news, and follow me on [Twitter](https://twitter.com/rainboestrykr) for daily threads on web dev resources.
