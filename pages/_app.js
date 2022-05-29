@@ -66,7 +66,6 @@ function MyApp({ Component, pageProps }) {
           ]}
         />
             
-            <script type="text/javascript">window.$widget = window.$widget || {}; window.WIDGET_SITE_ID = 'bf13d2f0-3aa9-4df9-8d50-f6a00e3bd50e'; (function(w,d){var s = d.createElement('script');s.defer = true;s.src = '//www.widgetscripts.com/embed.js';d.getElementsByTagName('head')[0].appendChild(s);})(window,document);</script>
         {process.env.NODE_ENV == "production" ? (
           // Analytics Script
           <script defer type="text/javascript" src="https://api.pirsch.io/pirsch.js"
