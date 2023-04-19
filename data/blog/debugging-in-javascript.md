@@ -8,7 +8,7 @@ excerpt: Since Javascript is interpreted at run time and executed inside the bro
 
 ---
 
-![banner](https://blog.abhiraj.co/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1653837312764%2FzYN5umjWR.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75)
+![banner](https://miro.medium.com/v2/resize:fit:828/format:webp/1*CoBFk7FqJJqUYLmRojJCFw.png)
 
 Programmers spend a lot of time diagnosing and remedying errors and omissions in their code. Debugging slows down the Javascript execution and shows how data is modified line by line. Since Javascript is interpreted at run time and executed inside the browser, debugging is performed with tools built into the browser.
 
