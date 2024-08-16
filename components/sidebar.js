@@ -9,6 +9,7 @@ import {
   TwitterIcon,
   InstagramIcon,
   GithubIcon,
+  LinkedinLogo,
   ExternalLinkIcon,
   EmailIcon,
 } from "lib/icons";
@@ -51,8 +52,14 @@ export default function Sidebar() {
     },
     {
       title: "Instagram",
-      url: `https://twitter.com/${process.env.instagram}`,
+      url: `https://instagram.com/${process.env.instagram}`,
       icon: InstagramIcon,
+      external: true,
+    },
+    {
+      title: "LinkedIn",
+      url: `https://linkedin.com/in/abhiraj-bhowmick/`,
+      icon: LinkedinIcon,
       external: true,
     },
     {
