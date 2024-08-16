@@ -9,7 +9,7 @@ import {
   TwitterIcon,
   InstagramIcon,
   GithubIcon,
-  LinkedinLogo,
+  LinkedinIcon,
   ExternalLinkIcon,
   EmailIcon,
 } from "lib/icons";
