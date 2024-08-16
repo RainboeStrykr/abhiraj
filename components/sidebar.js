@@ -7,6 +7,7 @@ import {
   TravelIcon,
   SideProjectsIcon,
   TwitterIcon,
+  InstagramIcon,
   GithubIcon,
   ExternalLinkIcon,
   EmailIcon,
