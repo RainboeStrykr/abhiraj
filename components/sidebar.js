@@ -53,7 +53,7 @@ export default function Sidebar() {
       url: `https://twitter.com/${process.env.instagram}`,
       icon: InstagramIcon,
       external: true,
-    }
+    },
     {
       title: "Email",
       url: `mailto:abhirajbhowmick27@gmail.com`,
