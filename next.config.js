@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    instagram: "swift_yagami",
+    instagram: "abhiraj.fr",
     twitter: "rainboestrykr",
   }
 }
