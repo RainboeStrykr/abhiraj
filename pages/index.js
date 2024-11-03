@@ -7,7 +7,7 @@ export default function Home() {
       <article className="w-full px-10 py-10 mb-20 overflow-y-auto max-w-[620px] mx-auto">
         <div className="flex items-start justify-center w-full mb-10 overflow-hidden rounded-lg max-h-[500px] shadow-xl">
           <img
-            src="https://us-east-1.tixte.net/uploads/me.likes.cash/web-pfp.jpeg"
+            src="https://us-east-1.tixte.net/uploads/me.likes.cash/newpfp.jpg"
             alt="Abhiraj"
             title="A profile picture of Abhiraj"
           />
