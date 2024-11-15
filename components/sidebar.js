@@ -59,7 +59,7 @@ export default function Sidebar() {
     {
       title: "LinkedIn",
       url: `https://linkedin.com/in/abhiraj-bhowmick/`,
-      icon: LinkedinIcon,
+      icon: TravelIcon,
       external: true,
     },
     {
