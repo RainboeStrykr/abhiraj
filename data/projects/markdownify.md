@@ -12,7 +12,7 @@ icon: https://ph-files.imgix.net/2be40d7f-9159-4582-98d1-45f2b3bf2d9c.png?auto=c
 
 The only markdown editor you will ever need.
 
-Features
+## Features
 
 - **Save Your Files**: You can save your typed docs in local storage
 
