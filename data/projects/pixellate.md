@@ -8,7 +8,7 @@ icon: https://github.com/RainboeStrykr/Pixellate/raw/main/icons/logo.png
 
 ---
 
-![Screenshot](https://2s9e3bif52.execute-api.eu-central-1.amazonaws.com/production/screenshot?url=https://pixelated.vercel.app&color=7108B6)
+![Screenshot](https://us-east-1.tixte.net/uploads/me.likes.cash/pixellate-ss.png)
 
 Pixellate is a pixel-art editor created with HTML canvas and Javascript. It is a Progressive Web App (PWA) with offline compatibility. It is mobile-friendly and is very easy to use.
 
