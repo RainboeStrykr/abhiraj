@@ -4,7 +4,7 @@ slug: dev-cheats
 title: "Dev-Cheats"
 web: "https://dev-cheats.netlify.app"
 tech: ["Python", "Java", "CPP"]
-icon: "[https://cdn-icons-png.flaticon.com/128/13508/13508675.png](https://cdn-icons-png.flaticon.com/128/13508/13508675.png)"
+icon: "https://cdn-icons-png.flaticon.com/128/13508/13508675.png"
 
 ---
 
