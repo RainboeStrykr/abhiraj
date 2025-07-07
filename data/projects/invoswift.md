@@ -7,11 +7,13 @@ slug: invoswift
 
 ---
 
+![screenshot](https://raw.githubusercontent.com/RainboeStrykr/invoswift/refs/heads/main/media/MEDIA.png)
+
 InvoSwift is your smart, fast, and hassle-free solution for creating professional invoices and receipts. Whether you're a freelancer, small business owner, or entrepreneur, InvoSwift helps you stay on top of your finances with just a few taps.
 
 Design invoices and receipts and share them on the go — all from one sleek and easy-to-use platform.
 
-### ⚡️ Features
+## ⚡️ Features
 
 - **Instant Invoice Generation:** Create and customize invoices in seconds with your company info, items, taxes, and notes.
 
