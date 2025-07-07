@@ -1,22 +1,24 @@
 ---
 date: 2018-04-23 21:11:00 +0530
-title: "Guest-writing"
-web: "http://ayo.so/abhiraj"
-tech: ["Technical Writing", "Blogging"]
-slug: guest-posts
+title: "InvoSwift"
+web: "https://invoswift.netlify.app/"
+tech: ["React", "Javascript", "Vite"]
+slug: invoswift
 
 ---
 
-Being a blogger, I write avidly for various publications around the wide web
+InvoSwift is your smart, fast, and hassle-free solution for creating professional invoices and receipts. Whether you're a freelancer, small business owner, or entrepreneur, InvoSwift helps you stay on top of your finances with just a few taps.
 
-Most of my work is published on Medium.
+Design invoices and receipts and share them on the go — all from one sleek and easy-to-use platform.
 
-![Screenshot](https://us-east-1.tixte.net/uploads/abhiraj-is.super-cool.xyz/medium.png)
+### ⚡️ Features
 
-From [OpenReplay](https://blog.openreplay.com/authors/abhiraj-bhowmick) to [InPlainEnglish](https://javascript.plainenglish.io/5-free-javascript-chart-libraries-to-make-your-data-pop-ffd93c7a31c7?source=user_profile---------1-------------------------------), I have written posts for popular publications and startups.
+- **Instant Invoice Generation:** Create and customize invoices in seconds with your company info, items, taxes, and notes.
 
-Some of my other posts:
+- **9 Invoice Templates:** Choose from a range of modern, professional templates suited for any business type.
 
-- [Uilicious](https://uilicious.com/blog/author/abhiraj/)
-- [StudentsxWriters](https://studentsxstudents.com)
+- **Tax Support:** Work globally with support for tax configurations.
 
+- **PDF Sharing Options:** Export invoices and receipts as PDFs.
+
+- **Receipt Generator:** Inbuilt receipt generator with 4 templates.

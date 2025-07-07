@@ -1,8 +1,8 @@
 ---
 date: 2024-11-15 21:11:00 +0530
-slug: cleanshot
-title: "Cleanshot"
-web: "https://cleanshot.vercel.app"
+slug: siteshot
+title: "Siteshot"
+web: "https://siteshot.vercel.app"
 tech: ["CSS", "JAVASCRIPT", "HTML"]
 icon: "https://ph-files.imgix.net/d8bdff8e-69ba-4dc5-bbc0-72da05cdfa0d.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=72&h=72&fit=crop&dpr=1"
 
