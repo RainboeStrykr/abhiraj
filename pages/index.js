@@ -17,17 +17,16 @@ export default function Home() {
         </h2>
         <div className="post-content">
           <p className="text-lg text-gray-500">
-            I'm a <span className="font-medium">web developer</span> and{" "}
-            <span className="font-medium">tech blogger</span> by
+            I'm a <span className="font-medium">frontend developer</span> and{" "}
+            <span className="font-medium">business strategist</span> by
             profession, currently working on{" "}
-            <a href="https://twitter.com/visualwayorg">Visualway</a>.
+            <a href="https://github.com/visualway">Visualway</a>.
           </p>
           <p className="text-lg text-gray-500">
-            I like building clean and interactive stuff on the web
-            and write blogs on making web dev easy for all.
+          I enjoy working at the intersection of tech, communication, and problem-solving, and I’m always excited to collaborate on projects that make a difference.
           </p>
           <p className="text-lg text-gray-500">
-            On weekends I like to travel and take photos. I like to binge try
+            On weekends I like to travel and try new activities. I like to binge try
             Cafes and Restaurants. Some weekends go into building some side
             projects like{" "}
             <Link href="https://pro-modoro.xyz">
@@ -41,11 +40,11 @@ export default function Home() {
           </p>
         </div>
         <div className="px-4 py-3 my-5 text-base text-gray-400 bg-gray-100 rounded-xl dark:bg-gray-900 dark:text-gray-500">
-          You can find my socials{" "}
+          You can find my resume{" "}
           <a
             className="underline"
             target="_blank"
-            href="https://ayo.so/abhiraj"
+            href="https://resume.abhiraj.co"
           >
             here
           </a>
