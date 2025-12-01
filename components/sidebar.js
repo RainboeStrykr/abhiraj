@@ -36,7 +36,7 @@ export default function Sidebar() {
       active: pathname.includes("/blog"),
     },
     {
-      title: "Side Hustle",
+      title: "Projects",
       url: "/projects",
       icon: SideProjectsIcon,
       active: pathname.includes("/projects"),
