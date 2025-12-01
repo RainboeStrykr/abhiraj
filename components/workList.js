@@ -15,7 +15,7 @@ export default function WorkList({ allPosts, activeSlug }) {
       )}
     >
       <div className="px-4 py-2 mb-2 text-sm text-gray-500 border-b border-gray-100 dark:border-gray-800">
-        Side Projects
+        Projects
       </div>
       {allPosts?.map((post) => (
         <Link href={`/projects/${post.slug}`} key={post.slug}>
