@@ -24,7 +24,9 @@
     "rehype-prism-plus": "^1.1.1",
     "remark": "^14.0.1",
     "remark-html": "^15.0.0",
-    "sass": "^1.43.4",
-    "tailwindcss": "^2.2.19"
+    "sass": "^1.43.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.17"
   }
 }
