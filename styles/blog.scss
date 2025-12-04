@@ -6,7 +6,7 @@ $laptop: "screen and (min-width: 992px)"; /* Laptop and desktop */
 $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
 
 body {
-  @apply overflow-hidden dark:text-white dark:bg-[#111];
+  @apply overflow-hidden dark\:text-white dark\:bg-[#111];
 }
 
 .post-content {
@@ -237,11 +237,10 @@ body {
 
   ol, ul {
     li {
-      @apply text-lg text-gray-800 list-disc list-inside mb-4 dark:text-[#9f9f9f];
+      @apply text-lg text-gray-800 list-disc list-inside mb-4 dark\:text-[#9f9f9f];
 
       a {
-        @apply text-black dark:text-white underline;
-      }
+@apply text-black dark\:text-white underline;      }
     }
   }
 }
