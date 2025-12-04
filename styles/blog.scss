@@ -6,7 +6,7 @@ $laptop: "screen and (min-width: 992px)"; /* Laptop and desktop */
 $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
 
 body {
-  @apply overflow-hidden dark\:text-white dark\:bg-[#111];
+  @apply overflow-hidden dark:text-white dark:bg-[#111];
 }
 
 .post-content {
@@ -159,7 +159,7 @@ body {
     @apply my-10 border-l-2 border-gray-300 pl-5 font-mono;
 
     p {
-      @apply text-black dark:text-white text-lg dark:text-white;
+      @apply text-black dark:text-white text-lg;
     }
   }
 
@@ -237,10 +237,11 @@ body {
 
   ol, ul {
     li {
-      @apply text-lg text-gray-800 list-disc list-inside mb-4 dark\:text-[#9f9f9f];
+      @apply text-lg text-gray-800 list-disc list-inside mb-4 dark:text-[#9f9f9f];
 
       a {
-@apply text-black dark\:text-white underline;      }
+        @apply text-black dark:text-white underline;
+      }
     }
   }
 }
