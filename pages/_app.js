@@ -9,7 +9,7 @@ import {useRouter} from "next/router";
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const canonicalUrl = (
-    `https://abhiraj.co` + (router.asPath === "/" ? "" : router.asPath)
+    `https://abhirajb.netlify.app` + (router.asPath === "/" ? "" : router.asPath)
   ).split("?")[0];
 
   return (
