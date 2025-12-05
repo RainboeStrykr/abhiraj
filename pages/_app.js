@@ -9,7 +9,7 @@ import {useRouter} from "next/router";
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const canonicalUrl = (
-    `https://abhirajb.netlify.app` + (router.asPath === "/" ? "" : router.asPath)
+    `https://abhiraj.dev` + (router.asPath === "/" ? "" : router.asPath)
   ).split("?")[0];
 
   return (
@@ -20,10 +20,10 @@ function MyApp({ Component, pageProps }) {
           description="I make stuff on the web and write blogs about it"
           canonical={canonicalUrl}
           openGraph={{
-            site_name: "Hi, I'm Abhiraj",
-            title: "Hi, Abhiraj",
+            site_name: "Abhiraj's Portfolio",
+            title: "Welcome to Abhiraj's world",
             description:
-              "I make stuff on the web and write blogs about it",
+              "Hi, I'm Abhiraj and I like to code.",
             images: [
               {
                 url: "https://us-east-1.tixte.net/uploads/abhiraj-is.super-cool.xyz/meta.png",

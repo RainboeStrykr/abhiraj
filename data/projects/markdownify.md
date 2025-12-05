@@ -4,7 +4,7 @@ title: "Markdownify"
 slug: markdownify
 tech: ["HTML", "CSS", "Javascript"]
 web: https://markdownify.vercel.app/
-icon: https://ph-files.imgix.net/2be40d7f-9159-4582-98d1-45f2b3bf2d9c.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=72&h=72&fit=crop&dpr=1
+icon: https://raw.githubusercontent.com/RainboeStrykr/markdownify/refs/heads/main/images/markdownify-logo.jpg
 
 ---
 

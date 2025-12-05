@@ -1,4 +1,5 @@
 import { Sidebar } from "components"
+import { Analytics } from "@vercel/analytics/next"
 
 export default function MainLayout(props) {
   return (
