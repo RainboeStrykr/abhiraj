@@ -45,7 +45,7 @@ export default function Home() {
           <a
             className="underline"
             target="_blank"
-            href="https://resume.abhiraj.co"
+            href="https://www.dropbox.com/scl/fi/9s0fb9nxcndjoim2q8vea/abhiraj-technical-resume.pdf?rlkey=i9rstv7r0evfrztwhxv3d9zzj&st=e56bqd5o&dl=0"
           >
             here
           </a>
