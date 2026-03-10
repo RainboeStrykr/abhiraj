@@ -3,7 +3,7 @@
 layout: post
 title: "The Immersive Collaborative Virtual Environments in Healthcare: A State-of-the-Art Review"
 date: 2025-12-01 06:00:00 +0530
-categories: css
+categories: metaverse
 excerpt:  The healthcare metaverse represents a convergence of virtual reality (VR), augmented reality (AR), mixed reality (MR), and supporting technologies to create immersive digital environments for medical applications. This paper examines the current state and future potential of metaverse technologies in healthcare, analyzing market projections, technological infrastructure, clinical applications, and implementation challenges. 
 
 ---
