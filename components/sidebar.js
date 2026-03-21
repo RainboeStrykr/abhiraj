@@ -46,13 +46,13 @@ export default function Sidebar() {
   const SOCIAL = [
     {
       title: "Twitter",
-      url: `https://twitter.com/${process.env.twitter}`,
+      url: `https://twitter.com/rainboestrykr`,
       icon: TwitterIcon,
       external: true,
     },
     {
       title: "Instagram",
-      url: `https://instagram.com/${process.env.instagram}`,
+      url: `https://instagram.com/abhiraj.fr`,
       icon: InstagramIcon,
       external: true,
     },
