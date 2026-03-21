@@ -20,22 +20,22 @@ export default function Home() {
           <p className="text-lg text-gray-500">
             I'm a <span className="font-medium">frontend developer</span> and{" "}
             <span className="font-medium">business strategist</span> by
-            profession, currently working on{" "}
-            <a href="https://github.com/visualway">Visualway</a>.
+            profession, currently studying CSE with Software Engineering at{" "}
+            <a href="https://maps.app.goo.gl/jZNwz6rRt4YiFUeB7">SRM Institute of Science and Technology</a>.
           </p>
           <p className="text-lg text-gray-500">
           I enjoy working at the intersection of tech, communication, and problem-solving, and I’m always excited to collaborate on projects that make a difference.
           </p>
           <p className="text-lg text-gray-500">
-            On weekends I like to travel and try new activities. I like to binge try
-            Cafes and Restaurants. Some weekends go into building some side
-            projects like{" "}
+            On weekends, I like to party and try new adventures. I love to watch movies and shows. 
+            Some weekends go into building some side
+            projects like this{" "}
             <Link href="https://pro-modoro.xyz">
-              <a target="_blank">this productivity app</a>
+              <a target="_blank">productivity app</a>
             </Link>{" "}
-            and{" "}
-            <Link href="https://cleanshot.vercel.app">
-              <a>mockup tool</a>
+            and this{" "}
+            <Link href="https://glyph-pdf.vercel.app">
+              <a>PDF tool</a>
             </Link>
             .
           </p>
@@ -45,7 +45,7 @@ export default function Home() {
           <a
             className="underline"
             target="_blank"
-            href="https://www.dropbox.com/scl/fi/9s0fb9nxcndjoim2q8vea/abhiraj-technical-resume.pdf?rlkey=i9rstv7r0evfrztwhxv3d9zzj&st=e56bqd5o&dl=0"
+            href="https://www.dropbox.com/scl/fi/ig9g40ronkihkzzjojvet/abhiraj_general_resume.pdf?rlkey=9b84dfwp6gw99dncwnsr2x3rb&st=grxy23s4&dl=0"
           >
             here
           </a>
