@@ -8,7 +8,7 @@ icon: https://raw.githubusercontent.com/RainboeStrykr/glyph-pdf-toolkit/refs/hea
 
 ---
 
-![Screenshot](/project-files/glyph-pdf.png)
+![Screenshot](/project-files/glyph-pdf.gif)
 
 ## Description
 Glyph is your all-in-one, browser-based solution for complete PDF management. Designed for simplicity and power, Glyph empowers you to effortlessly merge, split, compress, convert, organise, and secure your PDF documents, all within a private and intuitive environment. From transforming HTML into PDFs to adding watermarks, encrypting sensitive files, or decrypting protected documents, Glyph provides professional-grade tools without requiring downloads or complex installations. Experience unparalleled control over your documents, ensuring privacy and efficiency with every task.
