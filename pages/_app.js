@@ -2,7 +2,7 @@ import { ThemeProvider } from 'next-themes'
 import "styles/app.scss";
 import "styles/blog.scss";
 import MainLayout from "layouts/main";
-import {DefaultSeo} from "next-seo";
+import {NextSeo} from "next-seo";
 import Script from "next/script";
 import {useRouter} from "next/router";
 import { Analytics } from "@vercel/analytics/next"
@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider defaultTheme="system" attribute="class" enableSystem={true}>
       <MainLayout>
-        <DefaultSeo
+        <NextSeo
           title="Hi, I'm Abhiraj"
           description="I make stuff on the web and write blogs about it"
           canonical={canonicalUrl}

@@ -8,7 +8,7 @@ export default function Home() {
       <article className="w-full px-10 py-10 mb-20 overflow-y-auto max-w-[620px] mx-auto">
         <div className="flex items-start justify-center w-full mb-10 overflow-hidden rounded-lg max-h-[500px] shadow-xl">
           <img
-            src="https://i.ibb.co/SDTy6GV6/newpfp.jpg"
+            src="/abhiraj-pfp.jpg"
             alt="Abhiraj"
             title="A profile picture of Abhiraj"
           />
@@ -30,13 +30,9 @@ export default function Home() {
             On weekends, I like to party and try new adventures. I love to watch movies and shows. 
             Some weekends go into building some side
             projects like this{" "}
-            <Link href="https://pro-modoro.xyz">
-              <a target="_blank">productivity app</a>
-            </Link>{" "}
+            <Link href="https://pro-modoro.xyz" target="_blank">productivity app</Link>{" "}
             and this{" "}
-            <Link href="https://glyph-pdf.vercel.app">
-              <a>PDF tool</a>
-            </Link>
+            <Link href="https://glyph-pdf.vercel.app">PDF tool</Link>
             .
           </p>
         </div>

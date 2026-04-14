@@ -1,5 +1,5 @@
 ---
-date: 2024-11-15 21:11:00 +0530
+date: 2024-12-17 21:11:00 +0530
 slug: siteshot
 title: "Siteshot"
 web: "https://siteshot.vercel.app"
@@ -8,7 +8,7 @@ icon: "https://ph-files.imgix.net/d8bdff8e-69ba-4dc5-bbc0-72da05cdfa0d.png?auto=
 
 ---
 
-![screenshot](https://us-east-1.tixte.net/uploads/me.likes.cash/cleanshot-ss.png)
+![screenshot](/project-files/siteshot-demo.gif)
 
 Generate clean screenshots for any website from its URL.
 

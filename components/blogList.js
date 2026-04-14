@@ -15,7 +15,6 @@ export default function BlogList({ data, activeSlug }) {
       </div>
       {data?.map((post) => (
         <Link href={`/blog/${post.slug}`} key={post.slug}>
-          <a>
             <article
               className={classnames(
                 "px-5 py-3 my-1 border-b border-gray-100 rounded-lg cursor-pointer group dark:hover:bg-black dark:border-gray-900",
@@ -50,7 +49,6 @@ export default function BlogList({ data, activeSlug }) {
                 {post?.excerpt?.slice(0, 100)}
               </p>
             </article>
-          </a>
         </Link>
       ))}
     </div>

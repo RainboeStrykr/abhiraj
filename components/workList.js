@@ -19,7 +19,6 @@ export default function WorkList({ allPosts, activeSlug }) {
       </div>
       {allPosts?.map((post) => (
         <Link href={`/projects/${post.slug}`} key={post.slug}>
-          <a>
             <article
               className={classnames(
                 "px-5 py-3 my-1 border-b border-gray-100 rounded-lg cursor-pointer group flex items-center dark:hover:bg-black dark:border-gray-900",
@@ -46,7 +45,6 @@ export default function WorkList({ allPosts, activeSlug }) {
                 {post.title}
               </h2>
             </article>
-          </a>
         </Link>
       ))}
     </div>

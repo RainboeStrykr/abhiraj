@@ -1,14 +1,14 @@
 ---
-date: 2022-12-01 21:11:00 +0530
+date: 2025-12-06 21:11:00 +0530
 title: "Beamroom"
 web: "https://beamroom.vercel.app/"
-tech: ["React", "Javascript", "Next"]
+tech: ["React", "Typescript", "WebRTC"]
 slug: beamroom
 icon: https://raw.githubusercontent.com/RainboeStrykr/beamroom/refs/heads/main/app/assets/logo.png
 
 ---
 
-![screenshot](https://raw.githubusercontent.com/RainboeStrykr/beamroom/main/app/assets/Beamroom(tutorial).gif)
+![screenshot](/project-files/beamroom.gif)
 
 
 ## *Real-time code-based screen sharing — simple, fast, and secure.*

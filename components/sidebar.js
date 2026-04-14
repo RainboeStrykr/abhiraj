@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import {
@@ -20,7 +20,10 @@ import { useTheme } from "next-themes";
 export default function Sidebar() {
   const { pathname } = useRouter();
   const [mobileNav, showMobileNav] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const {theme, setTheme} = useTheme();
+
+  useEffect(() => setMounted(true), []);
 
   const LINKS = [
     {
@@ -74,17 +77,16 @@ export default function Sidebar() {
     return (
       LINKS.map((link) => (
         <div className="px-4" key={link.title}>
-          <Link href={link.url}>
-            <a
-              className={classnames(
-                "flex items-center w-full px-4 py-[5px] mb-2 transition-all duration-150 ease-in-out rounded-lg dark:hover:bg-black",
-                { "bg-black text-white": link?.active },
-                { "hover:bg-gray-100": !link?.active }
-              )}
-            >
-              <span className="w-5 h-5 min-w-[40px]">{link?.icon}</span>
-              <span>{link?.title}</span>
-            </a>
+          <Link
+            href={link.url}
+            className={classnames(
+              "flex items-center w-full px-4 py-[5px] mb-2 transition-all duration-150 ease-in-out rounded-lg dark:hover:bg-black",
+              { "bg-black text-white": link?.active },
+              { "hover:bg-gray-100": !link?.active }
+            )}
+          >
+            <span className="w-5 h-5 min-w-[40px]">{link?.icon}</span>
+            <span>{link?.title}</span>
           </Link>
         </div>
       ))    
@@ -97,25 +99,24 @@ export default function Sidebar() {
         <h4 className="px-10 mt-4 mb-2 text-gray-400">Social</h4>
         {SOCIAL.map((link) => (
           <div className="px-4" key={link.title}>
-            <Link href={link.url}>
-              <a
-                className={classnames(
-                  "flex items-center w-full px-4 py-[5px] mb-2 transition-all duration-150 ease-in-out rounded-lg dark:hover:bg-black",
-                  { "bg-black text-white": link?.active },
-                  { "hover:bg-gray-100": !link?.active }
-                )}
-                target={link?.external ? "_blank" : undefined}
-              >
-                <span className="w-5 h-5 min-w-[40px]">{link?.icon}</span>
-                <span>{link?.title}</span>
-                {link?.external ? (
-                  <span className="w-4 h-4 ml-auto text-gray-400 dark:text-gray-600">
-                    {ExternalLinkIcon}
-                  </span>
-                ) : (
-                  ""
-                )}
-              </a>
+            <Link
+              href={link.url}
+              className={classnames(
+                "flex items-center w-full px-4 py-[5px] mb-2 transition-all duration-150 ease-in-out rounded-lg dark:hover:bg-black",
+                { "bg-black text-white": link?.active },
+                { "hover:bg-gray-100": !link?.active }
+              )}
+              target={link?.external ? "_blank" : undefined}
+            >
+              <span className="w-5 h-5 min-w-[40px]">{link?.icon}</span>
+              <span>{link?.title}</span>
+              {link?.external ? (
+                <span className="w-4 h-4 ml-auto text-gray-400 dark:text-gray-600">
+                  {ExternalLinkIcon}
+                </span>
+              ) : (
+                ""
+              )}
             </Link>
           </div>
         ))}
@@ -124,7 +125,8 @@ export default function Sidebar() {
   }
 
   const renderPrefs = () => {
-    return (theme ? 
+    if (!mounted) return null;
+    return (
       <>
         <h4 className="px-10 mt-4 mb-2 text-gray-400">Theme</h4>
         <div className="px-2 py-1 mx-6 dark:bg-[#111] border border-gray-200 rounded-lg cursor-pointer dark:border-gray-800">
@@ -140,7 +142,7 @@ export default function Sidebar() {
           </select>
         </div>
       </>
-    : "");
+    );
   }
 
   return (
