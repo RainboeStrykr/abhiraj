@@ -19,3 +19,5 @@ UniPlan is a modern, full-stack university timetable scheduling application. It 
 - **Performance Analytics**: Compare algorithmic node-expansion and execution time natively against baseline Backtracking.
 - **Smart Result Generation**: Dynamic timetable mapping displaying fully optimized, clash-free schedules.
 - **Comprehensive Documentation**: Built-in documentation explaining the entire system architecture and usage.
+
+[Live-Demo](https://github.com/RainboeStrykr/uniplan)
