@@ -18,7 +18,7 @@ export default function Home() {
         </h2>
         <div className="post-content">
           <p className="text-lg text-gray-500">
-            I'm a <span className="font-medium">frontend developer</span> and{" "}
+            I'm a <span className="font-medium">full-stack developer</span> and{" "}
             <span className="font-medium">business strategist</span> by
             profession, currently studying CSE with Software Engineering at{" "}
             <a href="https://maps.app.goo.gl/jZNwz6rRt4YiFUeB7">SRM Institute of Science and Technology</a>.
