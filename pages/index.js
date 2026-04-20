@@ -28,22 +28,21 @@ export default function Home() {
           </p>
           <p className="text-lg text-gray-500">
             On weekends, I like to party and try new adventures. I love to watch movies and shows. 
-            Some weekends go into building some side
-            projects like this{" "}
-            <Link href="https://pro-modoro.xyz" target="_blank">productivity app</Link>{" "}
-            and this{" "}
-            <Link href="https://glyph-pdf.vercel.app">PDF tool</Link>
+            Some weekends go into writing about{" "}
+            <Link href="https://idle.abhiraj.dev/" target="_blank">the state of the world</Link>{" "}
+            and designing{" "}
+            <Link href="https://design.abhiraj.dev/" target="_blank">brand identities</Link>
             .
           </p>
         </div>
         <div className="px-4 py-3 my-5 text-base text-gray-400 bg-gray-100 rounded-xl dark:bg-gray-900 dark:text-gray-500">
-          You can find my resume{" "}
+          {" "}
           <a
             className="underline"
             target="_blank"
-            href="https://www.dropbox.com/scl/fi/ig9g40ronkihkzzjojvet/abhiraj_general_resume.pdf?rlkey=9b84dfwp6gw99dncwnsr2x3rb&st=grxy23s4&dl=0"
+            href="https://www.dropbox.com/scl/fi/pm9544mscu0s8q7ld6mcg/abhiraj_bhowmick_resume.pdf?rlkey=0xoeu9d91zu5ohzrr3xr0mh4k&st=hwfvvivm&dl=0"
           >
-            here
+          Click here to view my resume
           </a>
           .
         </div>
