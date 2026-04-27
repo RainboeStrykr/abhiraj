@@ -40,7 +40,7 @@ export default function Home() {
           <a
             className="underline"
             target="_blank"
-            href="https://www.dropbox.com/scl/fi/pm9544mscu0s8q7ld6mcg/abhiraj_bhowmick_resume.pdf?rlkey=0xoeu9d91zu5ohzrr3xr0mh4k&st=hwfvvivm&dl=0"
+            href="https://www.dropbox.com/scl/fi/juk0omdwphg4qxbm1doo8/abhiraj_bhowmick_resume.pdf?rlkey=5cps7slto1cpgxs3tzy9a8gv6&st=0w6lk5wh&dl=0"
           >
           Click here to view my resume
           </a>
