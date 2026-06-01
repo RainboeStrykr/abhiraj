@@ -15,6 +15,13 @@ import {
 } from "lib/icons";
 import classnames from "classnames";
 import { useTheme } from "next-themes";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "components/ui/select";
 
 
 export default function Sidebar() {
@@ -129,17 +136,17 @@ export default function Sidebar() {
     return (
       <>
         <h4 className="px-10 mt-4 mb-2 text-gray-400">Theme</h4>
-        <div className="px-2 py-1 mx-6 dark:bg-[#111] border border-gray-200 rounded-lg cursor-pointer dark:border-gray-800">
-          <select
-            onChange={(e) => setTheme(e.target.value)}
-            className="w-full bg-transparent dark:bg-[#111] outline-none appearance-none cursor-pointer"
-            defaultValue={theme}
-            placeholder="Select theme"
-          >
-            <option value="system">System</option>
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
-          </select>
+        <div className="px-6">
+          <Select value={theme} onValueChange={setTheme}>
+            <SelectTrigger>
+              <SelectValue placeholder="Select theme" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="system">System</SelectItem>
+              <SelectItem value="light">Light</SelectItem>
+              <SelectItem value="dark">Dark</SelectItem>
+            </SelectContent>
+          </Select>
         </div>
       </>
     );
